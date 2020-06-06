@@ -1,0 +1,345 @@
+
+
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('gilroy-light-webfont.woff2') format('woff2'),
+         url('gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main{
+	background-image: linear-gradient(#196191,#50A7BA);
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(8, minmax(120px,1fr));
+	grid-template-rows: repeat(6, 1fr);
+}
+
+.main-title{
+font-family: 'gilroyextrabold',open sans;
+color: white;
+font-size: 4.2rem;
+grid-column: 2/4;
+grid-row: 3/4;
+margin-top: 5%
+}
+
+.sub-title{
+font-family: 'gilroylight',open sans;
+color: #9CE5FF;
+font-size: 0.8rem;
+grid-column: 2/4;
+grid-row: 3/4;
+}
+
+.main-underline{
+	height: 0.9rem;
+    width: 60rem;
+    background-color: #87B5CB;
+	grid-row: 3/4;
+	grid-column: 2/4;
+	margin-top: 40%;
+	opacity: 0.5;
+}
+
+.main-buildings_residential{
+	
+	grid-row: 5/7;
+	grid-column: 2/3;
+}
+
+.main-buildings_text{
+	margin-top: 15%;
+	color: white;
+	font-family: Helvetica,open sans;
+}
+
+.main-buildings_public{
+	
+	grid-row: 5/7;
+	grid-column: 3/4;
+}
+
+.svg-icon{
+	height: 3rem;
+}
+.small-underline{
+	height: 0.3rem;
+    width: 2rem;
+    background-color: #5AE7FF;
+    margin-top: 20%;
+}
+
+.small-link{
+	margin-top: 30%;
+color: #5AE7FF;
+	font-family: Helvetica;
+}
+
+.main-img{
+	display: inline-block;
+	grid-row: 2/7;
+	grid-column: 4/8;
+	justify-content: center;
+	width: 28rem;
+	z-index: 1000
+}
+.awards{
+	grid-column: 7/8;
+}
+
+.logo{
+	height: 5rem;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	margin-top: 15%;
+}
+.main-navigation{
+	
+}
+
+.exploration{
+	background-image: linear-gradient(#50A7BA,#196191);
+	height: 90vh;
+	display: grid;
+	grid-template-columns: repeat(8, minmax(120px,1fr));
+	grid-template-rows: repeat(6, 1fr);
+}
+
+.main-title__explore{
+	grid-column: 5/9;
+	grid-row: 2/3;
+	font-size: 4.5rem;
+	font-family: 'gilroyextrabold',open sans;
+    color: white;
+}
+
+.sub-title__explore{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	font-size: 2rem;
+	font-family: 'gilroylight',open sans;
+    color: #FFF;
+    margin-top: 30%
+}
+
+.slides{
+	grid-row: 2/4;
+	grid-column: 2/4;
+	height: 14rem;
+}
+
+.img2{
+		grid-column: 1/2;
+		margin-left: -10rem
+}
+
+.img3{
+	margin-left: -90rem
+}
+
+.projectoverview{
+	grid-row: 3/4;
+	color: white;
+	grid-column: 5/7;
+	font-family: 'gilroylight',open sans;
+}
+
+
+.projectoverviews{
+	grid-row: 3/4;
+	color: white;
+	grid-column: 5/8;
+	font-family: Helvetica;
+	font-size: 1rem;
+	margin-top: 10%
+}
+
+.readmore{
+	height: 3rem;
+	grid-column: 5/7;
+	grid-row: 4/5;
+	background-color: transparent;
+	border: 1px solid #5AE7FF;
+	color: white;
+	margin-top: 20%;
+	justify-content: center;
+		font-family: Helvetica;
+		font-size: 1rem;
+		transition: all 1s;
+}
+
+.readmore:hover{
+	background-color: #5AE7FF;
+	color: #F9FF5F;
+	cursor: pointer;
+}
+
+.slide-number{
+	grid-column: 2/3;
+	grid-row: 4/5;
+	font-size: 3rem ;
+    color: white;
+    font-family: Helvetica;
+    	margin-top: 40%;
+}
+
+sup{
+	font-size: 1.2rem ;
+}
+
+.nav_forward{
+	border-radius: 50%;
+	background-color: transparent;
+	height: 3rem;
+	width: 3rem;
+	border: 1px solid #5AE7FF;
+	grid-column: 3/4;
+	grid-row: 4/5;
+	margin-top: 40%;
+	opacity: 0.4;
+}
+
+.nav_backward{
+	border-radius: 50%;
+	background-color: transparent;
+	height: 3rem;
+	width: 3rem;
+	border: 1px solid #5AE7FF;
+	grid-column: 3/4;
+	grid-row: 4/5;
+	margin-top: 40%;
+	margin-left: 50%
+}
+.playsign{
+	height: 0.7rem
+}
+
+.portfolio{
+	background-image: linear-gradient(#196191,#50A7BA);
+	height: 90vh;
+	display: grid;
+	grid-template-columns: repeat(8, minmax(120px,1fr));
+	grid-template-rows: repeat(6, 1fr);
+}
+
+.portfolio-link1{
+	grid-column: 3/4;
+	color: white;
+}
+
+.portfolio-link2{
+	grid-column: 4/5;
+}
+.portfolio-title{
+	grid-column: 2/6;
+	grid-row: 2/3;
+     margin-top: 0;
+}
+
+.sub-title__portfolio{
+	grid-column: 3/4;
+	grid-row: 3/4;
+	font-size: 1.4rem;
+	font-family: 'gilroylight',open sans;
+    color: #fff;
+    margin-top: 10%;
+}
+
+
+.portfoliooverviews{
+	grid-row: 4/5;
+	color: white;
+	grid-column: 3/4;
+	font-family: Helvetica;
+	font-size: 0.8rem;
+	line-height: 1.5
+}
+
+.pos{
+	grid-row: 4/5;
+	grid-column: 2/3;
+	margin-left: 50%;
+	align-self: center;
+	height: 4rem
+}
+
+.portfolio-img{
+	grid-column: 6/-1;
+	grid-row: 1/5;
+}
+
+.award{
+	background-image: linear-gradient(#50A7BA,#196191);
+	height: 90vh;
+	display: grid;
+	grid-template-columns: repeat(8, minmax(120px,1fr));
+	grid-template-rows: repeat(6, 1fr);
+}
+
+.award-collections{
+  display: flex;
+  justify-content: space-between;
+  grid-row: 3/-1;
+  grid-column: 2/-1;
+  box-sizing: border-box;
+	  overflow: hidden;
+}
+
+.award-img{
+	height: 17rem
+}
+
+.award-org{
+	color: #F9FF5F;
+	font-family: 'gilroylight',open sans;
+	margin-top: 10%;
+}
+
+.award-name{
+	color: #fff;
+	font-family: 'gilroylight',open sans;
+	margin-top: 10%;
+}
+
+.read-more{
+	color: #5AE7FF;
+	font-family: 'gilroylight',open sans;
+	margin-top: 10%;
+}
+
+
+
+.award-group:last-child{
+	margin-right: -10rem;
+	  overflow: hidden;
+}
+
+
+
+
+
+
+
+
